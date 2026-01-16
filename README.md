@@ -49,7 +49,7 @@ Drowsy driving causes thousands of accidents every year. Existing solutions are 
 ### 1 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Vigildrive-ai.git
+git clone https://github.com/hsponchiado/Vigil_Drive_AI.git
 cd Vigildrive-ai
 ```
 
