@@ -8,34 +8,34 @@ This project was built for a hackathon by a team of 3 and is designed to be demo
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Drowsy driving causes thousands of accidents every year. Existing solutions are often reactive or intrusive. VigilDrive AI provides a **proactive**, **privacy‑aware**, and **explainable AI** system that detects fatigue *before* it becomes dangerous.
 
 ---
 
-## ✅ Key Features
+##  Key Features
 
-### 🧠 Real‑Time AI Detection
+###  Real‑Time AI Detection
 
 * Webcam‑based driver monitoring
 * Eye Aspect Ratio (EAR)
 * **PERCLOS** (Percentage of Eye Closure)
 * Fatigue classification (LOW / MEDIUM / HIGH)
 
-### 🚨 Smart Alert System
+###  Smart Alert System
 
 * Escalating alerts based on fatigue level
 * Audio alerts (cross‑platform)
 * Alert logging with timestamps
 
-### 📊 Analytics Dashboard
+###  Analytics Dashboard
 
 * Fatigue timeline visualization
 * Alert frequency analysis
 * Historical trend tracking
 
-### 🔐 Privacy & Governance (IBM Track)
+###  Privacy & Governance (IBM Track)
 
 * On‑device processing (no cloud video storage)
 * Optional face blurring
@@ -44,7 +44,7 @@ Drowsy driving causes thousands of accidents every year. Existing solutions are 
 
 ---
 
-## 🧩 Project Structure
+##  Project Structure
 
 ```
 Vigildrive-ai/
@@ -73,29 +73,29 @@ Vigildrive-ai/
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
-### 1️⃣ Clone the repository
+### 1 Clone the repository
 
 ```bash
 git clone https://github.com/your-username/Vigildrive-ai.git
 cd Vigildrive-ai
 ```
 
-### 2️⃣ Create & activate virtual environment
+### 2 Create & activate virtual environment
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 3️⃣ Upgrade pip
+### 3 Upgrade pip
 
 ```bash
 pip install --upgrade pip
 ```
 
-### 4️⃣ Install dependencies
+### 2 Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -103,7 +103,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Running the Application
+##  Running the Application
 
 ```bash
 streamlit run app.py
@@ -117,7 +117,7 @@ http://localhost:8501
 
 ---
 
-## 🧪 Testing Alerts (Optional)
+##  Testing Alerts (Optional)
 
 To test the alert system without the camera:
 
@@ -127,7 +127,7 @@ python test_person_b.py
 
 ---
 
-## 🖥️ Tech Stack
+##  Tech Stack
 
 * **Python 3.11**
 * **Streamlit** — Web UI
@@ -139,7 +139,7 @@ python test_person_b.py
 
 ---
 
-## 🧠 Responsible AI & IBM Track Alignment
+##  Responsible AI & IBM Track Alignment
 
 * Privacy‑by‑design (local processing)
 * No facial data stored
@@ -149,20 +149,8 @@ python test_person_b.py
 
 ---
 
-## 👥 Team Roles
 
-* **Person A — Vision Engineer**
-  Computer vision, fatigue metrics, detection logic
-
-* **Person B — Safety Architect**
-  Alert system, logging, analytics
-
-* **Person C — Governance Guardian**
-  UI/UX, privacy, IBM alignment
-
----
-
-## 🚀 Demo Tips
+##  Demo Tips
 
 * Start with eyes open → normal state
 * Close eyes for 2–3 seconds → trigger HIGH alert
@@ -171,7 +159,7 @@ python test_person_b.py
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 * Mobile deployment
 * Fleet management dashboard
@@ -180,7 +168,7 @@ python test_person_b.py
 
 ---
 
-## 📜 License
+##  License
 
 This project is for educational and hackathon use.
 
