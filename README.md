@@ -44,35 +44,6 @@ Drowsy driving causes thousands of accidents every year. Existing solutions are 
 
 ---
 
-##  Project Structure
-
-```
-Vigildrive-ai/
-├── app.py                 # Main Streamlit application
-├── requirements.txt       # Project dependencies
-├── README.md              # Project documentation
-│
-├── src/
-│   ├── detector.py        # Computer vision & fatigue detection
-│   ├── alert_system.py    # Alert logic (audio + escalation)
-│   ├── database.py        # SQLite logging
-│   ├── dashboard.py       # Analytics visualizations
-│
-├── governance/
-│   └── privacy.py         # Privacy & audit utilities
-│
-├── data/
-│   └── vigildrive.db      # SQLite database
-│
-├── assets/
-│   ├── logo.png           # App & sidebar logo
-│   └── demo_images/
-│
-└── venv/                  # Python virtual environment
-```
-
----
-
 ## Installation & Setup
 
 ### 1 Clone the repository
