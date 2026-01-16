@@ -14,7 +14,6 @@ import time
 from governance.privacy import PrivacyManager, AuditLogger
 from governance.model_card import ModelCard
 
-# Try to import teammate modules (detector + alert system)
 try:
     from detector import DrowsinessDetector  # noqa
     DETECTOR_AVAILABLE = True
@@ -522,7 +521,6 @@ if "critical_alerts" not in st.session_state:
 if "last_session_summary" not in st.session_state:
     st.session_state.last_session_summary = None
 
-# Initialize alert manager if available
 if ALERT_AVAILABLE and "alert_manager" not in st.session_state:
     st.session_state.alert_manager = AlertManager()
 
@@ -1245,4 +1243,5 @@ elif page == "Audit Log":
                 </div>
             </div>
         </div>
+
         """, unsafe_allow_html=True)
