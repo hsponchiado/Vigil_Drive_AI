@@ -1,10 +1,10 @@
-# 🚗 VigilDrive AI
+#  VigilDrive AI
 
 **AI‑Powered Driver Fatigue Detection & Governance Platform**
 
-VigilDrive AI is a real‑time driver safety system that uses computer vision to detect early signs of driver fatigue (eye closure, reduced blinking, PERCLOS) and trigger escalating alerts — all while emphasizing **privacy‑by‑design** and **responsible AI**, aligned with the **IBM Track**.
+VigilDrive AI is a real‑time driver safety system that uses computer vision to detect early signs of driver fatigue (eye closure, reduced blinking, PERCLOS) and trigger escalating alerts — all while emphasizing **privacy by design** and **responsible AI**, aligned with the **IBM Track**.
 
-This project was built for a hackathon by a team of 3 and is designed to be demo‑friendly, modular, and enterprise‑ready.
+This project was built for a hackathon by a team of 3 and is designed to be demo friendly, modular, and enterprise ready.
 
 ---
 
@@ -145,4 +145,4 @@ This project is for educational and hackathon use.
 
 ---
 
-**VigilDrive AI — Building safer roads with responsible AI.** 🚦
+**VigilDrive AI — Building safer roads with responsible AI.** 
